@@ -1,0 +1,8 @@
+name          'garethr-nimrod'
+version       '0.0.1'
+author        'garethr'
+license       'Apache License, Version 2.0'
+summary       'Module to manage the Nimrod monitoring tool'
+project_page  'https://github.com/garethr/garethr-nimrod'
+dependency    'garethr/garethr'
+dependency    'puppetlabs/java'
