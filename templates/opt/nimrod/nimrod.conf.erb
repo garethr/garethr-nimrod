@@ -1,0 +1,18 @@
+logs {
+<% log_files.each do |ident, file| %>
+  <%= ident %> {
+    source : <%= file %>
+    interval : 600
+    end : false
+  }
+<% end %>
+}
+
+store {
+    type : disk
+    path : db
+}
+
+server {
+    port : 8888
+}

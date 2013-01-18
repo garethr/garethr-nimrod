@@ -12,8 +12,12 @@ For experimenting you're probably fine just with:
 
 # Configuration
 
-For this release you're responsible for dropping a valid configuration
-file in /opt/nimrod/nimrod.conf. I'll fix that soon enough.
+By default nimrod starts up and will look for a single log file at
+/var/log/nimrod.log. It's likely you'll want to change this. That's
+coming next.
+
+Nothing else is configurable either yet but should be. More as I use the module
+or receive pull requests (hint).
 
 # Requirement
 
