@@ -32,10 +32,10 @@ port 8888. This can be changed with:
 Nothing else is configurable yet but should be. More as I use the module
 or receive pull requests (hint).
 
-# Requirement
+# Optional requirement
 
 Nimrod appears not to have a canonical package repository I could find
 or a PPA or similar so this module makes use of my own personal debian package
-repository. This is installed with the
-[garethr](https://github.com/garethr/garethr-garethr) module which is
-marked as a dependency in the Modulefile.
+repository. This can installed with the
+[garethr](https://github.com/garethr/garethr-garethr) module.
+Alternatively host your own package repository.
